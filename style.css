@@ -1,0 +1,116 @@
+/* Общие стили */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Заголовки */
+h1, h2 {
+    color: #222;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Блок информации о коте */
+.cat-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+/* Фото кота */
+.cat-card img {
+    border-radius: 15px;
+    border: 3px solid #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.cat-card img:hover {
+    transform: scale(1.05);
+}
+
+/* Список хобби */
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+ol li {
+    background: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+ol li:hover {
+    background: #ff6b6b;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+/* Таблица */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 60%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+th {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Кнопка отправки формы */
+input[type="submit"] {
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background: #ff4757;
+    transform: scale(1.1);
+}
+
+/* Ссылки */
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    background: #ff6b6b;
+    color: white;
+    transform: scale(1.1);
+}
